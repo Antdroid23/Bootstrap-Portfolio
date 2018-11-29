@@ -1,0 +1,93 @@
+html, body {
+    max-height: 100%
+}
+
+body {
+    background-image: url("../img/BGI.png");
+}
+
+
+/* styling the NavBar */
+
+
+nav {
+    background: transparent;
+}
+
+.navbar {
+    padding: 2rem;
+}
+
+.navbar-brand {
+    font-family: fantasy;
+    font-size: 1.8em !important;
+    font-weight: bold;
+    color: #4aaaa5 !important;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 1.1em !important;
+    color: #4aaaa5 !important;
+}
+
+.nav-link:hover {
+    color: #777777 !important;
+}
+
+
+/* styling the jumbotron */
+
+
+.jumbotron {
+    border: 3px solid #dddddd;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.display-4 {
+    color: #4aaaa5;
+}
+
+.my-4 {
+    border: 1.5px solid #dddddd;
+}
+
+.form-control:focus {
+box-shadow: 0 0 8px #4aaaa5;
+border: 1px solid #4aaaa5;
+-webkit-transition: all 0.20s ease-in-out;
+-moz-transition: all 0.20s ease-in-out;
+-ms-transition: all 0.20s ease-in-out;
+-o-transition: all 0.20s ease-in-out;
+}
+
+.custom-btn {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.custom-btn:hover {
+    background-color:#777777;
+    border-color: #777777;
+}
+
+
+/* Styling the footer */
+
+
+.fixed-bottom{
+    border-top: 4px solid #4aaaa5;
+    background-color: #777777 !important;
+    color: white !important;
+    padding: 0rem;
+}
+nav p {
+    margin-top: 1rem;;
+}
+
